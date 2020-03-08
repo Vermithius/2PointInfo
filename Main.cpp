@@ -1,6 +1,6 @@
 /*
 		The idea here is simply to print out small bits of info like the
-	'y' and 'x' intercepts of a given point. Print the slope and the full
+	'y' and 'x' intercepts of 2 given points. Print the slope and the full
 	equation that represents the 2 points entered.
 	
 		There will be no error catching here because I don't really plan
@@ -10,6 +10,7 @@
 
 #include <iostream>
 
+// I have been told never to use macros, but I like em, so yeah.
 #define PRINT std::cout
 #define GET std::cin
 
